@@ -1,0 +1,25 @@
+.pull-left.form-signin
+  %form{style: 'width: 295px; margin:0 20px 0 0; float: left;'}
+    %h2.form-signin-heading Sign in
+    %input.input-block-level{:placeholder => "Email address", :type => "text"}
+    %input.input-block-level{:placeholder => "Password", :type => "password"}
+    %label.checkbox
+      %input{:type => "checkbox", :value => "remember-me"}
+        Remember me
+    %button.btn.btn-large.btn-primary{:type => "submit"} Sign in
+  %form{style: 'width: 295px; margin:5px;float: left;border-left: 1px solid #CCCCCC;padding-left: 20px;'}
+    %h2.form-signin-heading Register
+    %input.input-block-level{:placeholder => "First name", :type => "text"}
+    %input.input-block-level{:placeholder => "Last name", :type => "text"}
+    %textarea{rows:4, style:'width: 280px;', placeholder:'About...'}
+    %input.input-block-level{:placeholder => "Email", :type => "text"}
+    %input.input-block-level{:placeholder => "Password", :type => "password"}
+    %input.input-block-level{:placeholder => "Phone", :type => "text"}
+    %label.radio.inline
+      %input{:type => "radio", :value => "male", :name=>'genderRadio'}
+        Male
+    %label.radio.inline
+      %input{:type => "radio", :value => "female", :name=>'genderRadio'}
+        Female
+    %button.btn.btn-large.btn-primary{:type => "submit"} Sign up
+

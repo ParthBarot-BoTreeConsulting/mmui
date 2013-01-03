@@ -1,0 +1,27 @@
+.navbar.navbar-inverse.navbar-fixed-top
+  = render :partial => 'top_nav_bar'
+.container{style:'margin-top: 70px;'}
+  .msg-box
+    .media
+      .pull-left
+        %img.media-object{ src:'/assets/rails.png', style: 'width: 42px; height: 54px;'}
+      .media-body.well.well-small
+        Hi, please start from chapter 1 for java basics. let me know when you are done with the syntax.
+    .media
+      .pull-left
+        %img.media-object{ src:'/assets/rails.png', style: 'width: 42px; height: 54px;'}
+      .media-body.well.well-small
+        Ok, now i am finished with java syntax. Please let me know further steps.
+    .media
+      .pull-left
+        %img.media-object{ src:'/assets/rails.png', style: 'width: 42px; height: 54px;'}
+      .media-body.well.well-small
+        Hello, Please go through OOPS concept. That is better way to improve your standards.
+    .media
+      .pull-left
+        %img.media-object{ src:'/assets/rails.png', style: 'width: 42px; height: 54px;'}
+      .media-body.well.well-small
+        Sure, thanks.
+    .input-append
+      %input.span11{type: 'text', id: 'appendedInputButton', placeholder:'type in your message here...'}
+      %button.btn.btn-success{type:'submit'} Send
